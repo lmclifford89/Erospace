@@ -1,0 +1,803 @@
+*{ box-sizing: border-box;}
+
+body {
+	margin: 0;
+
+}
+
+/*.container {
+	width:100%;
+	height: 50%;
+	background-color: black;
+	background-repeat: no-repeat;
+}*/
+
+/*------LOGO-TOP------*/
+
+.logo-wrap {
+	width:100%;
+	min-height:695px;
+	background-image:url(images/toplogoEDITfinal72.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	float: left;
+
+}
+/*--end-logo--*/
+
+/*--------NAV------*/
+
+
+
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.wrap-nav  {
+	background-color: black;
+
+}
+
+
+.wrap-nav:after {
+	content: "";
+	display: table;
+	clear: both;
+	
+}
+
+
+.wrap-nav > li {
+	float: left;
+	position:relative;
+	padding-right: 140px;
+	padding-left: 165px;
+
+
+}
+
+.wrap-nav > li:hover {
+	/*background-color:black;*/
+	transition: all 0.3s ease-in-out;
+}
+
+
+.wrap-nav > li > a {
+	text-decoration:none;
+	color: #fff;
+	display: block;
+	padding: 20px;
+	transition: all 0.3s ease-in-out;
+}
+
+.wrap-nav > li > a:hover {
+	background-color:#fff;
+	color: #3d222b;
+	transition: all 0.3s ease-in-out;
+}
+
+
+
+.wrap-nav > li:hover > .box-menu {
+	visibility:visible;
+	opacity: 1;
+	top: 58px;
+}
+
+
+
+.box-menu {
+	opacity: 0;
+	visibility:hidden;
+	background-color:#846262;
+	padding: 10px;
+	position:absolute;
+	width:calc(50% + 50px);
+	left: 1;
+	top:80px;
+	transition: all 0.3s ease-in-out;
+
+	
+}
+
+
+.box-menu a {
+	color :white;
+	text-decoration:none;
+	display:block;
+	padding: 10px 0;
+	padding-left: 40px;
+	
+}
+
+
+.wrap-nav button {
+	background-color: black;
+	font-family: Felix Titling, Times;
+	color:black;
+	font-size: 1.25rem; /*20px;*/
+	margin-top:15px;
+	margin-left: 0px; 
+
+}
+
+
+#navButton {
+	width: 120px;
+	height:120px;
+	position: absolute;
+	background-color: black;
+	border-radius: 80%;
+	margin-left: 727px;
+	margin-top: 670px;
+
+}
+
+#navButton button {
+	width: 70%;
+	height: 70%;
+	font-size: 1rem;
+	font-family: Felix Titling, Times;
+	color: black;
+	background-color: #CCBFBF;
+	border-radius: 50%;
+	margin-left: 18px;
+	margin-top: 18px;
+}
+
+#navButton i {
+	font-size: 3rem;
+	color: white;
+}
+
+
+/*--end-nav--*/
+
+
+/*---------DISCOVER----------*/
+
+.disc-wrap {
+	width:100%;
+	height:auto;
+	background-image:url(images/cloudbckgrndweb.png);
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	padding-bottom: 55px;
+}
+
+.disc-wrap h1 {
+	text-align: center;
+	font-family: Felix Titling, Times;
+	font-size: 1.875rem;
+	color: #724c4c;
+	/*border:;*/
+	margin-top: 120px;
+	
+}
+
+.disc-ic {
+	width:14.2%;
+	border-radius: 50%;
+	/*border-color: #724c4c;
+	border-width: 1px;*/
+	margin-left: 750px;
+	margin-top: 50px;
+}
+
+.disc-ic i {
+	font-size: 3.125rem;
+	position: absolute;
+	margin-left:12px;
+	color: #231919;
+}
+
+
+.p-disc {
+	text-align: left;
+	margin-left: 80px;
+	margin-right: 50px;
+	margin-top: 70px;
+	font-family: AdventPro-Regular, Verdana;
+	font-size: 1.5rem;
+	color: #724c4c;
+	text-align: center;
+	/*font-weight: bold;*/
+	visibility:;
+}
+
+.disc_circ1 {
+	width: calc(50% - 590px); /*200px;*/
+	height:auto; /*250*/
+	border: dashed;
+	border-radius: 50%;
+	border-color: #724c4c;
+	border-width: 1px;
+	margin-left: 420px;
+	margin-top: 150px;
+	float: left;
+
+}
+
+
+.disc_circ2 {
+	width: calc(50% - 590px); /*200px;*/
+	height:auto;
+	border: dashed;
+	border-radius: 50%;
+	border-color: #724c4c;
+	border-width: 1px;
+	margin-left: 80px;
+	margin-top: 150px;
+	float: left;
+
+}
+
+
+
+.disc_circ3 {
+	width: calc(50% - 590px); /*200px;*/
+	height:auto;
+	border: dashed;
+	border-radius: 50%;
+	border-color: #724c4c;
+	border-width: 1px;
+	margin-left: 80px;
+	margin-top: 150px;
+	float: left;
+
+}
+
+
+
+[class^="icon"], [class*="icon"] {
+    display: inline-block;
+    width: 100%;
+}
+
+.disc_circ1 i {
+	font-size: 9.735rem; /*150px;*/
+	text-align: center;
+	margin-left: 22px;
+	margin-top: 20px;
+	color: #231919;
+	
+}
+
+.disc_circ2 i {
+	font-size: 9.735rem;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 25px;
+	color: #231919;
+	
+}
+
+
+.disc_circ3 i {
+	font-size: 9.735rem;
+	text-align: center;
+	margin-left: 22px;
+	margin-top: 20px;
+	color: #231919;
+	
+}
+
+.circ1-tour {
+	font-family: AdventPro-Regular, Verdana;
+	font-weight: bold;
+	font-size: 1rem; 
+	color: #231919;
+	text-align: center;
+	visibility:; 
+	margin-top: 30px;
+}
+
+.circ2-trav {
+	font-family: AdventPro-Regular, Verdana;
+	font-weight: bold;
+	font-size: 1rem; 
+	color: #231919;
+	text-align: center;
+	visibility:;
+	margin-top: 30px; 
+}
+
+.circ3-acom {
+	font-family: AdventPro-Regular, Verdana;
+	font-weight: bold;
+	font-size: 1rem;
+	color: #231919;
+	text-align: center; 
+	visibility:; 
+	margin-top: 30px;
+}
+
+/*.circ1-tourVis {
+	font-size: 150%; 
+	color: #231919;
+	visibility: all;
+}
+
+.circ2-traVis {
+	font-family: "Calisto MT", Verdana;
+	font-weight: bold;
+	font-size: 24px; 
+	color: #231919;
+	text-align: center;
+	visibility: none; 
+}
+
+.circ3-acomVis {
+	font-family: "Calisto MT", Verdana;
+	font-weight: bold;
+	font-size: 24px;
+	color: #231919;
+	text-align: center; 
+	visibility: none; 
+}*/
+
+/*--end-discover--*/
+
+/*----TRAVEL-----*/
+
+.trav-wrap {
+	width:100%;
+	height:auto;
+	background-image:url(images/cloudtextweb.png);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	float: left;
+	padding-bottom: 95px;
+}
+
+.trav-wrap h1 {
+	text-align: center;
+	font-family: Felix Titling, Times;
+	font-size: 1.875rem;
+	color: #724c4c;
+	/*border:;*/
+	margin-top: 80px;
+	margin-left: 20px;
+
+	
+}
+
+
+#formTable  {
+	background:#513636;
+	/*border: 1px solid black;*/
+	width: 50%;
+	height: auto;
+	margin-top: 30px;
+	margin-left:420px;
+	font-family: AdventPro-Regular, Verdana;
+	color: white;
+	padding-bottom: 70px;
+	padding-top: 30px;
+	background: rgba(81, 54, 54, 0.9);	
+}
+	
+	
+#formTable input, #formTable textarea {
+	width: 150px;
+	height:auto;
+	background: #DFDCDC;
+	display: inline;
+	color: #ddd;
+	border: 2px solid #473B3C;
+	margin: 2px 5px;
+	font-family: AdventPro-Regular, Verdana;
+	color:#353232;
+	height: 20px;
+	font-size: 13px;
+	/*border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;*/
+
+}
+
+#formTable h2 {
+	font-family: AdventPro-Regular, Verdana;
+	margin-left: 335px;
+}
+
+.input-group-to {
+	width: 100%;
+	margin-left: 220px;
+	float: left;
+}
+
+.input-group-date {
+	width:100%;
+	margin-left: 220px;
+	margin-top: 30px;
+	float: left;
+}
+
+.input-group-pass {
+	width:100%;
+	margin-left: 150px;
+	margin-top: 10px;
+	float: left;
+	
+}
+
+/*.input-group-pass h3 {
+	font-family: Calisto MT, Verdana;
+	font-size: 1.25rem;
+	font-style: italic;
+}*/
+
+.input-group-pass p {
+	font-family: AdventPro-Regular, Verdana;
+	font-size: 1rem;
+	font-style: italic;
+	margin-left: 70px;
+}
+
+.has-text{
+	padding: 20px;
+	float: left;
+
+}
+
+.has-num {
+	padding: 20px;
+	float: left;
+}
+
+.group-total {
+	width:100%;
+	margin-left: 310px;
+	margin-top: 10px;
+	float: left;
+}
+
+
+.group-total p {
+	font-family: AdventPro-Regular, Verdana;
+	font-size: 1rem;
+	font-style: italic;
+	margin-left: 50px;
+}
+
+#formTable button {
+	background-color: white;
+	font-family: Felix Titling, Times;
+	color:#513636;
+	font-size: 1.25rem; /*20px;*/
+	margin-top:40px;
+	margin-left: 345px;
+
+}
+
+/*--end-travel--*/
+
+
+
+/*-----EXPLORE-----*/
+
+.exp-wrap {
+	width:100%;
+	height:auto;
+	/*background-color: white;*/
+	float: left;
+	 background: linear-gradient(#F1E2E2,white,#F1E2E2);
+
+}
+
+.exp-wrap h1{
+	text-align: center;
+	font-family: Felix Titling, Times;
+	font-size: 1.875rem;
+	color: #724c4c;
+	/*border:;*/
+	margin-top: 80px;
+}
+
+.circ_wrap1 {
+	width: 100%;
+	height: auto;
+	float:left;
+}
+
+.exp_circ1 {
+	width: calc(33% - 220px);/*300px;*/
+	height:300px;
+	border: ;
+	border-radius: 50%;
+	border-color: #724c4c;
+	margin-left: 220px;
+	margin-top: 80px;
+	float: left;
+	background-image: url("images/hyweb.png");
+	background-size: cover;
+}
+
+
+
+.circ_wrap1 p {
+	width: calc(12.5% + 570px); /*800px;*/
+	text-align: left;
+	margin-left: -20px;
+	margin-top: 150px;
+	margin-right: 120px;
+	font-family: AdventPro-Regular, Verdana;
+	font-size: 1.5rem;
+	color: #724c4c;
+	float: right;
+}
+
+
+.circ_wrap2 {
+	width:100%;
+	height: auto;
+	float:left;
+
+
+}
+
+
+.exp_circ2 {
+	width: calc(28% - 80px); /*350px*/
+	height:350px;
+	border: ;
+	border-radius: 50%;
+	border-color: #724c4c;
+	margin-right:80px;
+	margin-top: 80px;
+	float: right;
+	background-image: url("images/towerweb.png");
+	background-size: cover;
+
+}
+
+.circ_wrap2 p {
+	width: calc(12.5% + 570px);
+	text-align: left;
+	margin-left: 190px;
+	margin-top: 250px;
+	font-family: AdventPro-Regular, Verdana;
+	font-size: 1.5rem;
+	color: #724c4c;
+	float: left;
+}
+
+
+
+.circ_wrap3 {
+	width: 100%;
+	height: auto;
+	float:left;
+
+}
+
+.exp_circ3 {
+	width: calc(26% - 40px); /*380px;*/
+	height:380px;
+	border: ;
+	border-radius: 50%;
+	border-color: #724c4c;
+	margin-left: 220px;
+	margin-top: 100px;
+	float: left;
+	background-image: url("images/jumpweb.png");
+	background-size: cover;
+
+}
+
+.circ_wrap3 p {
+	width: calc(12.5% + 570px);
+	text-align: left;
+	margin-right: 80px;
+	margin-left: 20px;
+	margin-top: 150px;
+	padding-bottom: 50px;
+	font-family: AdventPro-Regular, Verdana;
+	font-size: 1.5rem;
+	color: #724c4c;
+	float: right;
+}
+
+
+.circ-resize {
+	font-size: 120%;
+}
+
+/*--end-explore--*/
+
+
+/*-----CONTACT-----*/
+
+
+.cont-wrap {
+	width:100%;
+	height:auto;
+	background-image:url(images/contactbckweb.png);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	padding-bottom: 85px;
+	float: left;
+
+}
+
+.cont-wrap h1 {
+	text-align: center;
+	font-family: Felix Titling, Times;
+	font-size: 1.875rem;
+	color: #a88c8c;
+	/*border:;*/
+	margin-top: 80px;
+	text-shadow: black 1px 0 10px;
+}
+
+#formTable2  {
+	background:#2b1321;
+	/*border: 1px solid black;*/
+	width: 750px;
+	height:400px;
+	margin: 0px 220px;
+	margin-top: 100px;
+	font-family: AdventPro-Regular, Verdana;
+	color: white;	
+	float: left;
+	background: rgba(43, 19, 33, 0.8);
+}
+	
+	
+#formTable2 input, #formTable2 textarea {
+	width: 250px;
+	background: #DFDCDC;
+	display: inline-block;
+	color: #ddd;
+	border: 2px solid #473B3C;
+	margin: 2px 5px;
+	font-family: AdventPro-Regular, Verdana;
+	color:#353232;
+	height: 28px;
+	font-size: 13px;
+	/*border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;*/
+}
+
+#formTable2 h2 {
+	font-family: AdventPro-Regular, Verdana;
+	margin-left: 320px;
+}
+
+.group-info {
+ 	width: 100%;
+ 	margin-left: 120px;
+ 	float: left;
+
+}
+
+.input-email {
+	width: 100%;
+	padding-top: 20px;
+	margin-left: 250px;
+	float: left;
+}
+
+.group-mes {
+	 width: 100%;
+	 margin-top: 0px;
+	 margin-left: 250px;
+	 float: left;
+}
+
+.group-mes p {
+	font-family: AdventPro-Regular, Verdana;
+	font-size: 1rem;
+	font-style: italic;
+	margin-left: 100px;
+
+}
+
+.comments {
+	padding:40px;
+}
+
+.has-name {
+	padding:20px;
+
+}
+
+
+
+#formTable2 button {
+	background-color: white; /*#2b1321;*/
+	font-family: Felix Titling, Times;
+	color: #2b1321;   /*white;*/
+	font-size: 1.25rem; /*20px;*/
+	margin-top:20px;
+	margin-left: 335px;
+
+}
+
+
+
+.address {
+	width:calc(33% - 200px); /*300px;*/
+	height:auto;
+	background:#2b1321;
+	/*border: 1px solid black;*/
+	margin-top: 100px;
+	margin-left: -215px;
+	padding-bottom: 44px;
+	float: left;
+	background: rgba(43, 19, 33, 0.8);
+}
+
+.address h2 {
+	font-family: AdventPro-Regular, serif;
+	color: white;
+	margin-left: 20px;
+	font-size: 1.6rem;
+}
+
+.address p {
+	font-family: AdventPro-Regular, Verdana;
+	color: white;
+	margin-left: 20px;
+	font-size: 1rem;
+	font-style: italic;
+}
+
+
+.map{
+	width: calc(40% + 80px); /*250px;*/
+	height: 175px;
+	margin: 0px 20px;
+	top: 15px;
+	background-image: url("images/mapweb.png");
+}
+
+/*--end-contact--*/
+
+
+/*----FOOTER----*/
+
+
+.footer {
+	width:100%;
+	height: auto;
+	background-color: black;
+	padding-bottom: 20px;
+	float:left;
+}
+
+.foot-icon {
+	width:250px;
+	margin-top: 10px;
+	margin-left: 700px;
+}
+
+.footer i {
+	font-size: 3rem;
+	color:grey;
+	margin-left: 30px;
+}
+
+
+
+/*---END FOOTER---*/
+
+
+
+
+
+@font-face{
+    font-family: "AdventPro-Regular";
+    src:url(web-font/AdventPro-Regular.ttf) format('truetype');
+    
+}	
