@@ -152,7 +152,7 @@ display: none;
 	}
 
 .circ_wrap3 p {
-	margin-right: 120px;
+	margin-right: 100px;
 	}
 
 
@@ -253,6 +253,10 @@ display: none;
 	height: 380px;
 	width:380px;
 	margin-left: 80px;
+	}
+	
+.circ_wrap3 p {
+	margin-right: 100px;
 	}
 	
 .foot-icon {
