@@ -221,9 +221,9 @@ display: none;
 	margin-left: 290px;
 	}
 	
-.exp-circ1 {
-	height: 280px;
-	border-radius: 100%;
+.exp_circ1 {
+	/*height: 280px;*/
+	/*border-radius: 100%;*/
 	margin-left: 50px;
 	}
 	
@@ -231,12 +231,12 @@ display: none;
 	margin-left:110px;
 	}
 	
-.exp-circ2 {
+.exp_circ2 {
 	margin-right: 50px;
 	}
 	
-.exp-circ3 {
-	height: 350px;
+.exp_circ3 {
+	/*height: 350px;*/
 	margin-left: 80px;
 	}
 	
