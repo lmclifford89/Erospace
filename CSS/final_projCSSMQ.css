@@ -222,7 +222,8 @@ display: none;
 	}
 	
 .exp_circ1 {
-	height: 280px;
+	height: 300px;
+	width:300px;
 	border-radius: 100%;
 	margin-left: 50px;
 	}
@@ -232,11 +233,14 @@ display: none;
 	}
 	
 .exp_circ2 {
+	height: 350px;
+	width:350px;
 	margin-right: 50px;
 	}
 	
 .exp_circ3 {
-	height: 350px;
+	height: 380px;
+	width:380px;
 	margin-left: 80px;
 	}
 	
