@@ -89,6 +89,68 @@ display: none;
 
 
 
+
+/*laptop continue------*/
+
+@media only screen and (max-width: 1440px) {
+
+.wrap-nav > li {
+	padding-right:30px;
+	
+	}
+	
+.disc-ic{
+	margin-left:700px;
+	}
+	
+.disc_circ1 i {
+	font-size: 5.5rem;
+	margin-left: 450px;
+	}
+	
+.disc_circ2 i {
+	font-size: 5.5rem;
+	}
+
+.disc_circ3 i {
+	font-size: 5.5rem;
+	}
+	
+#formTable {
+	margin-left: 350px;
+	}
+	
+.trav-wrap h1 {
+	margin-left: 0;
+	}
+	
+#formTable h2 {
+	margin-left: 320px;
+	}
+	
+.exp-circ1 {
+	height: 280px;
+	border-radius: 100%;
+	margin-left: 200px;
+	}
+	
+.exp-circ3 {
+	height: 350px;
+	margin-left: 180px;
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
 /*---FOR IPHONE 6,7, 8 ----*/
 
 @media only screen and (max-width: 375px) {
