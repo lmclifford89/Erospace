@@ -254,6 +254,117 @@ display: none;
 }
 
 
+	
+
+@media only screen and (max-width: 1280px) {
+
+.wrap-nav > li {
+	padding-right:30px;
+	
+	}
+	
+.disc-ic{
+	margin-left:620px;
+	}
+	
+.disc_circ1 {
+	width: calc(50% - 490px);
+	margin-left: 375px;
+	}
+	
+.disc_circ2 {
+	width: calc(50% - 490px);
+	}
+	
+.disc_circ3 {
+	width: calc(50% - 490px);
+	}
+	
+.disc_circ1 i {
+	font-size: 5.5rem;
+	margin-left: 25px;
+	}
+	
+.disc_circ2 i {
+	font-size: 5.5rem;
+	margin-left: 30px;
+	}
+
+.disc_circ3 i {
+	font-size: 5.5rem;
+	margin-left: 15px;
+	}
+	
+#formTable {
+	margin-left: 320px;
+	}
+	
+.trav-wrap h1 {
+	margin-left: 10px;
+	}
+	
+#formTable h2 {
+	margin-left: 280px;
+	}
+	
+	
+.input-group-to {
+	margin-left:180px;
+	}
+	
+.input-group-date {
+	margin-left: 180px;
+	}
+	
+.input-group-pass {
+	margin-left: 100px;
+	}
+	
+.group-total {
+	margin-left: 260px;
+	}
+	
+#formTable button {
+	margin-left: 290px;
+	}
+	
+.exp_circ1 {
+	height: 300px;
+	width:300px;
+	border-radius: 100%;
+	margin-left: 50px;
+	}
+	
+.circ_wrap2 p {
+	margin-left:80px;
+	}
+	
+.circ_wrap3 p {
+	margin-right:20px;
+	}
+	
+.exp_circ2 {
+	height: 350px;
+	width:350px;
+	margin-right: 50px;
+	}
+	
+.exp_circ3 {
+	height: 380px;
+	width:380px;
+	margin-left: 80px;
+	}
+	
+.foot-icon {
+	margin-left: 600px;
+
+
+
+
+
+}
+
+
 
 
 
