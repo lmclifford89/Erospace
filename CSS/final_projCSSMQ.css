@@ -132,14 +132,14 @@ display: none;
 	margin-left: 320px;
 	}
 	
-.exp-circ1 {
-	height: 280px;
-	border-radius: 100%;
+.exp_circ1 {
+	/*height: 280px;*/
+	/*border-radius: 100%;*/
 	margin-left: 200px;
 	}
 	
-.exp-circ3 {
-	height: 350px;
+.exp_circ3 {
+	/*height: 350px;*/
 	margin-left: 180px;
 	}
 
@@ -222,8 +222,8 @@ display: none;
 	}
 	
 .exp_circ1 {
-	height: 280px;
-	border-radius: 100%;
+	/*height: 280px;*/
+	/*border-radius: 100%;*/
 	margin-left: 50px;
 	}
 	
@@ -236,7 +236,7 @@ display: none;
 	}
 	
 .exp_circ3 {
-	height: 350px;
+	/*height: 350px;*/
 	margin-left: 80px;
 	}
 	
