@@ -135,14 +135,25 @@ display: none;
 .exp_circ1 {
 	/*height: 280px;*/
 	/*border-radius: 100%;*/
-	margin-left: 200px;
+	margin-left: 90px;
+	}
+	
+.circ_wrap2 p {
+	margin-left: 100px;
+	}
+	
+.exp_circ2 {
+	margin-right: 150px;
 	}
 	
 .exp_circ3 {
 	/*height: 350px;*/
-	margin-left: 180px;
+	margin-left: 100px;
 	}
 
+.circ_wrap3 p {
+	margin-right: 120px;
+	}
 
 
 
