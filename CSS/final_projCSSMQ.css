@@ -157,24 +157,35 @@ display: none;
 	}
 	
 .disc-ic{
-	margin-left:700px;
+	margin-left:655px;
 	}
 	
 .disc_circ1 {
-	margin-left: 450px;
+	width: calc(50% - 520px);
+	margin-left: 375px;
+	}
+	
+.disc_circ2 {
+	width: calc(50% - 520px);
+	}
+	
+.disc_circ3 {
+	width: calc(50% - 520px);
 	}
 	
 .disc_circ1 i {
 	font-size: 5.5rem;
-	margin-left: 0;
+	margin-left: 30px;
 	}
 	
 .disc_circ2 i {
 	font-size: 5.5rem;
+	margin-left: 30px;
 	}
 
 .disc_circ3 i {
 	font-size: 5.5rem;
+	margin-left: 30px;
 	}
 	
 #formTable {
@@ -186,19 +197,51 @@ display: none;
 	}
 	
 #formTable h2 {
-	margin-left: 320px;
+	margin-left: 280px;
+	}
+	
+	
+.input-group-to {
+	margin-left:180px;
+	}
+	
+.input-group-date {
+	margin-left: 180px;
+	}
+	
+.input-group-pass {
+	margin-left: 100px;
+	}
+	
+.group-total {
+	margin-left: 260px;
+	}
+	
+#formTable button {
+	margin-left: 290px;
 	}
 	
 .exp-circ1 {
-	height: 280px;
-	border-radius: 100%;
-	margin-left: 200px;
+	/*height: 280px;*/
+	/*border-radius: 100%;*/
+	margin-left: 50px;
+	}
+	
+.circ_wrap2 p {
+	margin-left:110px;
+	}
+	
+.exp-circ2 {
+	margin-right: 50px;
 	}
 	
 .exp-circ3 {
-	height: 350px;
-	margin-left: 180px;
+	/*height: 350px;*/
+	margin-left: 80px;
 	}
+	
+.foot-icon {
+	margin-left: 600px;
 
 
 
