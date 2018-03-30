@@ -103,9 +103,13 @@ display: none;
 	margin-left:700px;
 	}
 	
+.disc_circ1 {
+	margin-left: 450px;
+	}
+	
 .disc_circ1 i {
 	font-size: 5.5rem;
-	margin-left: 450px;
+	margin-left: 0;
 	}
 	
 .disc_circ2 i {
@@ -156,9 +160,13 @@ display: none;
 	margin-left:700px;
 	}
 	
+.disc_circ1 {
+	margin-left: 450px;
+	}
+	
 .disc_circ1 i {
 	font-size: 5.5rem;
-	margin-left: 450px;
+	margin-left: 0;
 	}
 	
 .disc_circ2 i {
